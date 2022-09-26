@@ -3,8 +3,8 @@ from patchify import patchify
 import tifffile as tiff
 import cv2
 
-image_directory = 'C:/Users/Hafizi/PycharmProjects/Cell Segmentation/1-data/x4/images/'
-mask_directory = 'C:/Users/Hafizi/PycharmProjects/Cell Segmentation/1-data/x4/masks/'
+image_directory = '1-data/x4/images/'
+mask_directory = '1-data/x4/masks/'
 
 images = os.listdir(image_directory)
 images.sort()
@@ -15,7 +15,7 @@ for i, image_name in enumerate(images):    #Remember enumerate method adds a cou
         for j in range(patches_img.shape[0]):
             for k in range(patches_img.shape[1]):
                 single_patch_img = patches_img[j, k, 0, :, :, :]
-                tiff.imwrite('C:/Users/Hafizi/PycharmProjects/Cell Segmentation/1-data/images/' + 'image_' + '_' + str(i) + '_' +str(j) + str(k) + '.tiff', single_patch_img)
+                tiff.imwrite('1-data/image_patches/' + 'image_' + '_' + str(i) + '_' +str(j) + str(k) + '.tiff', single_patch_img)
 
 masks = os.listdir(mask_directory)
 # masks.sort()
@@ -26,5 +26,5 @@ for i, image_name in enumerate(masks):
         for j in range(patches_mask.shape[0]):
             for k in range(patches_mask.shape[1]):
                 single_patch_mask = patches_mask[j,k, :,:]
-                tiff.imwrite('C:/Users/Hafizi/PycharmProjects/Cell Segmentation/1-data/masks/' + 'mask_' + '_' + str(i) + '_' + str(j)+str(k)+ ".tiff", single_patch_mask)
+                tiff.imwrite('1-data/mask_patches/' + 'mask_' + '_' + str(i) + '_' + str(j)+str(k)+ ".tiff", single_patch_mask)
                 single_patch_mask = single_patch_mask / 255.
