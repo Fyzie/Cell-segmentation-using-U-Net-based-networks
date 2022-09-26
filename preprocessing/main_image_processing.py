@@ -22,7 +22,7 @@ root.attributes('-topmost',True)
 root.after_idle(root.attributes,'-topmost',False)
 
 path = askopenfilename(title='Choose test image', \
-                       initialdir='C:/Users/Hafizi/PycharmProjects/Cell Segmentation/1-data/all scales/')
+                       initialdir='1-data/all scales/')
 
 image1 = cv2.imread(path) 
 print('IMAGE FILE:', path.split('/')[-1])
