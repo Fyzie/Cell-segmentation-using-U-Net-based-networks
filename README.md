@@ -18,7 +18,7 @@ Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube 
 
 3. Download and install [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)
 
-4. Download and install [NVIDIA cuDNN](https://developer.nvidia.com/cudnn)
+4. Download [NVIDIA cuDNN](https://developer.nvidia.com/cudnn)
 
 6. Extract cuDNN and transfer the files within
    - Copy folders bin, include, lib
