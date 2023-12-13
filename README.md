@@ -10,7 +10,7 @@
 
 Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube Video](https://www.youtube.com/watch?v=hHWkvEcDBO0)
 
-> Windows environment   
+> Tested on Windows environment   
 
 1. [GO HERE FIRST](https://www.tensorflow.org/install/source#gpu) to check cross compatibility
 
