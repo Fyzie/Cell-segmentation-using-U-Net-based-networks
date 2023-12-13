@@ -1,5 +1,11 @@
 # Cell segmentation using U-Net based networks
 
+## Project Pipeline   
+
+<img src="https://user-images.githubusercontent.com/76240694/192287299-3f67b4fd-c844-4398-aa33-6a4717ffd59d.png" width="600">
+
+## GPU Support   
+
 Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube Video](https://www.youtube.com/watch?v=hHWkvEcDBO0)
 
 > Windows environment   
@@ -30,6 +36,4 @@ conda create --name {any_name} python=={compatible_version}
 pip install tensorflow=={compatible_version}
 ```
 
-## Project Pipeline
 
-<img src="https://user-images.githubusercontent.com/76240694/192287299-3f67b4fd-c844-4398-aa33-6a4717ffd59d.png" width="600">
