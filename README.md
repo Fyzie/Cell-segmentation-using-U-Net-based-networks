@@ -2,8 +2,8 @@
 Table of Contents
 - [Project Pipeline](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main?tab=readme-ov-file#project-pipeline)
 - [GPU Support](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main?tab=readme-ov-file#gpu-support)
-  - Tensorflow GPU
-  - Possible Errors
+  - [Tensorflow GPU](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/blob/main/README.md#tensorflow-gpu)
+  - [Possible Errors](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/blob/main/README.md#possible-errors)
 ## Project Pipeline   
 
 > data > preprocessing > models > training > predictions
