@@ -39,11 +39,11 @@ Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube 
      - ...\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin
      - ...\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
 
-8. Install and create [Anaconda Python](https://www.anaconda.com/download) environment (check compatible version)
+7. Install and create [Anaconda Python](https://www.anaconda.com/download) environment (check compatible version)
 ```
 conda create --name {any_name} python=={compatible_version}
 ```
-6. Install Tensorflow (compatible with GPU support)
+8. Install Tensorflow (compatible with GPU support)
 ```
 pip install tensorflow=={compatible_version}
 ```
