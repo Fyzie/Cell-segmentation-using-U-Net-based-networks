@@ -19,7 +19,7 @@ Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube 
 > Only applicable for Tensorflow <= 2.10   
 > For recent Tensorflow, please refer [link](https://www.tensorflow.org/install/pip?_gl=1*1jwqv1w*_ga*ODI3Mjk2MjIwLjE3MDIyNjkyNTI.*_ga_W0YLR4190T*MTcwMjU5Njk4OS43LjEuMTcwMjU5NzMyNS4wLjAuMA..#windows-wsl2_1)
 
-![image](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/assets/76240694/c79964af-caef-425b-9170-dc7f24ed8186)
+![WSL2](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/assets/76240694/ebbc7e1e-0241-48cb-a789-26ae61f1ecbb)
 
 
 1. [GO HERE FIRST](https://www.tensorflow.org/install/source#gpu) to check cross compatibility
