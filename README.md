@@ -10,7 +10,7 @@
 
 Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube Video](https://www.youtube.com/watch?v=hHWkvEcDBO0)
 
-> Tested on Windows environment   
+> Tested on Windows environment with Tensorflow 2.9, CUDA 11.2, cudnn 8.1   
 > Only applicable for Tensorflow <= 2.10   
 > For recent Tensorflow, please refer [link](https://www.tensorflow.org/install/pip?_gl=1*1jwqv1w*_ga*ODI3Mjk2MjIwLjE3MDIyNjkyNTI.*_ga_W0YLR4190T*MTcwMjU5Njk4OS43LjEuMTcwMjU5NzMyNS4wLjAuMA..#windows-wsl2_1)
 
@@ -43,4 +43,14 @@ conda create --name {any_name} python=={compatible_version}
 pip install tensorflow=={compatible_version}
 ```
 
+### Possible Errors
+```
+Could not locate zlibwapi.dll. Please make sure it is in your library path
+```
+Copy of the missing zlib DLL in the NVIDIA Nsight directory:
 
+> C:\Program Files\NVIDIA Corporation\Nsight Systems 2022.4.2\host-windows-x64\zlib.dll   
+
+Copied and renamed it to:
+
+> C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\zlibwapi.dll   
