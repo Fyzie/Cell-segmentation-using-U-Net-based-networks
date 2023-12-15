@@ -1,5 +1,9 @@
 # Cell segmentation using U-Net based networks
-
+Table of Contents
+- [Project Pipeline](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main?tab=readme-ov-file#project-pipeline)
+- [GPU Support](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main?tab=readme-ov-file#gpu-support)
+  - Tensorflow GPU
+  - Possible Errors
 ## Project Pipeline   
 
 > data > preprocessing > models > training > predictions
@@ -8,6 +12,7 @@
 
 ## GPU Support   
 
+### Tensorflow GPU
 Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube Video](https://www.youtube.com/watch?v=hHWkvEcDBO0)
 
 > Tested on Windows environment with Tensorflow 2.9, CUDA 11.2, cudnn 8.1   
