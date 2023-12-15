@@ -48,7 +48,8 @@ pip install tensorflow=={compatible_version}
 ### Tensorflow GPU (Tensorflow > 2.10)
 > Please refer [link](https://www.tensorflow.org/install/pip?_gl=1*1jwqv1w*_ga*ODI3Mjk2MjIwLjE3MDIyNjkyNTI.*_ga_W0YLR4190T*MTcwMjU5Njk4OS43LjEuMTcwMjU5NzMyNS4wLjAuMA..#windows-wsl2_1)   
 
-![WSL2](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/assets/76240694/ebbc7e1e-0241-48cb-a789-26ae61f1ecbb)   
+![image](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/assets/76240694/e10e929b-3b47-4e87-a34c-356b097e27f4)
+
 
 ### Possible Errors
 ```
