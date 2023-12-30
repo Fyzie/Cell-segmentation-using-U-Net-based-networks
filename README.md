@@ -15,6 +15,8 @@ Table of Contents
 ## GPU Support   
 
 ### Tensorflow GPU (Tensorflow <= 2.10)
+You can follow from the official documentation [here](https://www.tensorflow.org/install/pip#windows-native_1) OR...   
+
 Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube Video](https://www.youtube.com/watch?v=hHWkvEcDBO0)
 
 > Tested on Windows environment with Tensorflow 2.9, CUDA 11.2, cudnn 8.1   
