@@ -21,7 +21,7 @@ Guidance for Tensorflow Installation with CUDA, cudNN and GPU support: [Youtube 
 
 > Tested on Windows environment with Tensorflow 2.9, CUDA 11.2, cudnn 8.1   
 
-1. [GO HERE FIRST](https://www.tensorflow.org/install/source#gpu) to check cross compatibility
+1. [GO HERE FIRST](https://www.tensorflow.org/install/source_windows#gpu) to check cross compatibility
 
 2. Download and install [Microsoft Visual Studio](https://visualstudio.microsoft.com/vs/community/)
 
