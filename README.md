@@ -6,7 +6,7 @@ Table of Contents
     - [Tensorflow <= 2.10](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main#tensorflow-gpu-tensorflow--210)
     - [Tensorflow > 2.10](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main#tensorflow-gpu-tensorflow--210-1)
   - [Possible Errors](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/blob/main/README.md#possible-errors)
-  - [PyTorch GPU](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/blob/main/README.md#pytorch-gpu)
+
 ## Project Pipeline   
 
 > data > preprocessing > models > training > predictions
@@ -65,13 +65,6 @@ Copy of the missing zlib DLL in the NVIDIA Nsight directory:
 Copied and renamed it to:
 
 > C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin\zlibwapi.dll   
-
-### PyTorch GPU
-> Compatible for CUDA 11.2 and cudnn 8.1   
-> Can pair with Tensorflow < 2.11 in one device
-```
-pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
-```
 
 ## GPU Support (Linux Ubuntu 22.04)  
 
