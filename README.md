@@ -13,7 +13,7 @@ Table of Contents
 
 <img src="https://user-images.githubusercontent.com/76240694/192287299-3f67b4fd-c844-4398-aa33-6a4717ffd59d.png" width="600">
 
-## GPU Support   
+## GPU Support (Windows)   
 
 ### Tensorflow GPU (Tensorflow <= 2.10)
 You can follow from the official documentation [here](https://www.tensorflow.org/install/pip#windows-native_1) OR...   
