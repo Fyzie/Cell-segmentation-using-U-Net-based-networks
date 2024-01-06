@@ -6,6 +6,7 @@ Table of Contents
     - [Tensorflow <= 2.10](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main#tensorflow-gpu-tensorflow--210)
     - [Tensorflow > 2.10](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/tree/main#tensorflow-gpu-tensorflow--210-1)
   - [Possible Errors](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/blob/main/README.md#possible-errors)
+  - [PyTorch GPU](https://github.com/Fyzie/Cell-segmentation-using-U-Net-based-networks/blob/main/README.md#pytorch-gpu)
 ## Project Pipeline   
 
 > data > preprocessing > models > training > predictions
