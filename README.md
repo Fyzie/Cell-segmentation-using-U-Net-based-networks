@@ -68,5 +68,6 @@ Copied and renamed it to:
 
 ## GPU Support (Linux Ubuntu 22.04)  
 
-1. [Reference 1](https://www.reddit.com/r/Python/comments/117xf0z/guide_how_to_get_gpu_support_for_tensorflow_on/)
-2. [Reference 2](https://gist.github.com/denguir/b21aa66ae7fb1089655dd9de8351a202)
+
+1. [Reference 1](https://gist.github.com/denguir/b21aa66ae7fb1089655dd9de8351a202)
+2. [Reference 2](https://www.reddit.com/r/Python/comments/117xf0z/guide_how_to_get_gpu_support_for_tensorflow_on/)
